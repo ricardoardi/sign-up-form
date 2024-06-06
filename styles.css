@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.left-side{
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 100vh;
+    position: relative;
+}
+.right-side{
+    border: 1px solid red;
+    width: 70%;
+    height: 100vh;
+}
+
+.img-card{
+    width: 100%;
+    height: 100%;
+}
+
+.odin{
+    background-color: rgb(0, 0, 0 , .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 30%;
+}
+.odin-logo{
+    width: 100px;
+    align-self: center;
+    height: auto;
+}
+h1{
+    font-family: "norsebold";
+    color: white;
+    font-size: 6rem;
+}
+.credit{
+    color: white;
+    font-size: 1rem;
+}
+a{
+    color: white;
+}
+.credit-container{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
