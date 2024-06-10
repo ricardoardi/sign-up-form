@@ -79,7 +79,8 @@ h1{
     display: flex;
     flex-direction: column;
     padding-left: 5em;
-    box-shadow: 2px 5px #e4e5e6;
+    box-shadow: 2px 5px #dbdcdc;
+    color: #323b47;
 }
 .bot-container{
     height: 33%;
@@ -97,14 +98,41 @@ h1{
     flex-direction: column;
 }
 
+.input-txt{
+    height: 20px;
+}
 .inner-mid{
-    border: 1px solid yellow;
     width: 70%;
     height: 80%;
+    font-size: 18px;
 }
 
 .row-lbl{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
+}
+
+button{
+    font-family: "roboto",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #596d48;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.login-txt{
+    margin-top:30px;
+    font-size: 18px;
+}
+
+.login{
+    text-decoration: none;
+    color: #596d48;
+    font-weight: bold;
 }
