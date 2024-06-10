@@ -53,7 +53,10 @@ h1{
     color: white;
     font-size: 1rem;
 }
-a{
+.credit-links:link{
+    color: white;
+}
+.credit-links:visited{
     color: white;
 }
 .credit-container{
@@ -68,20 +71,21 @@ a{
     justify-content: flex-end;
     padding-left: 5em;
     padding-bottom: 2em;
+    background-color: #f9fafb;
 
 }
 .mid-container{
-    border: 1px solid black;
     height: 35%;
     display: flex;
     flex-direction: column;
     padding-left: 5em;
+    box-shadow: 2px 5px #e4e5e6;
 }
 .bot-container{
-    border: 1px solid aqua;
     height: 33%;
     padding-left: 5em;
     padding-top: 2em;
+    background-color: #f9fafb;
 }
 .top-title-1, .top-title-2{
     font-family: Arial, Helvetica, sans-serif;
